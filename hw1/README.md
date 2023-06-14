@@ -1,2 +1,0 @@
-# htmlcss-practice
-verstka
