@@ -19,7 +19,7 @@
     line-height: 1.62;
 }
 
-.portfolio .button:hover, .portfolio .button:focus {
+.portfolio-section .button:hover, .portfolio-section .button:focus {
     color: var(--white-color);
     background-color: var(--accent-color);
 }
