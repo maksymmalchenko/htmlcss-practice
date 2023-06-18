@@ -1,0 +1,52 @@
+/* Portfolio */
+
+.portfolio-section > .title {
+    color: var(--secondary-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+}
+
+.portfolio-section .button {
+    color: var(--secondary-text-color);
+    background-color: var(--secondary-background-color);
+
+    letter-spacing: 0.03em;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+}
+
+.portfolio .button:hover, .portfolio .button:focus {
+    color: var(--white-color);
+    background-color: var(--accent-color);
+}
+
+.portfolio-items {
+    --image-text-color: var(--white-color);
+}
+
+.portfolio-items .name {
+    color: var(--secondary-text-color);
+
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.portfolio-items .description {
+    color: var(--primary-text-color);
+
+    font-size: 16px;
+    line-height: 1.88;
+}
+
+.portfolio-items .image-text {
+    color: var(--image-text-color);
+
+    font-size: 18px;
+    line-height: 1.56;
+}

@@ -1,3 +1,34 @@
+/* Hero */
+
+.hero {
+    background-color: var(--primary-background-color);
+}
+
+/* Hero button */
+
+.hero .button {
+    color: var(--white-color);
+    background-color: var(--accent-color);
+
+    letter-spacing: 0.06em;
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+}
+
+.hero > .hero-title {
+    color: var(--white-color);
+
+    letter-spacing: 0.06em;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+
+    text-align: center;
+    text-transform: uppercase;
+}
+
 /* Section */
 
 .section-title,
@@ -6,14 +37,18 @@
     color: var(--secondary-text-color);
 }
 
-/* Hero */
-
-.hero {
-    background-color: var(--primary-background-color);
+.section-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
 }
 
-.hero-title {
-    color: var(--white-color);
+.feature-list .title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
 }
 
 /* Team section */
@@ -22,3 +57,13 @@
     background-color: var(--secondary-background-color);
 }
 
+.team-section .title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.9;
+}
+
+.team-section .job {
+    font-size: 16px;
+    line-height: 1.9;
+}
