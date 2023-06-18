@@ -63,7 +63,7 @@ button {
 
 /* Navigation and contact list */
 
-header .link {
+.page-header .link {
     color: var(--primary-text-color);
 
     letter-spacing: 0.02em;
@@ -87,18 +87,15 @@ header .link {
 
 /* Footer */
 
-footer {
+.page-footer {
     background-color: var(--primary-background-color);
 }
 
-footer p {
-    color: var(--white-color);
-}
-
-footer .contact-list .link {
+.page-footer .contact-list .link {
     color: var(--alt-footer-text-color);
 }
 
-address {
+.company-address {
+    color: var(--white-color);
     font-style: normal;
 }
